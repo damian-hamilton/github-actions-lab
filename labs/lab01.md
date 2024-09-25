@@ -82,7 +82,7 @@ jobs:
         id: hello
       # This step prints an output (time) from the previous step's action.
       - name: Echo the greeting's time
-        run: echo 'The time was ${{ steps.hello.outputs.time }}.'   
+        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
 ```
 </details>
 
