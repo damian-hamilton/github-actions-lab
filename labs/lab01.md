@@ -22,6 +22,7 @@ References:
 5. Commit the changes into the `main` branch
 6. Go to `Actions` and see the details of your running workflow
 7. added change
+8. added another change
 
 ## 1.2 Add steps to your workflow
 
