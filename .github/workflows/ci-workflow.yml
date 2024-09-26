@@ -44,7 +44,7 @@ jobs:
 
       - shell: bash
         run: |
-          echo 'Test upload artifact' > output.log
+          echo 'Test upload artifact' > output_${{ matrix.os }}_${{ matrix.node-version }}.log
 
       - name: Upload output file
         uses: actions/upload-artifact@v4
